@@ -1,0 +1,416 @@
+:root{
+    --desktop:1200px;
+    --laptops:1024px;
+    --ipads:7680px;
+    --mobile:480px
+}
+
+
+
+
+
+
+body{
+    font-family: 'Quicksand';font-size: 20px;font-weight: bold;
+   margin: 0;
+   padding: 0;
+   
+}
+
+#particles-js{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  
+}
+
+
+.scrollsmooth{
+    scroll-behavior: smooth;
+    overflow-y:auto;
+}
+                    /* navbar */
+
+.second_width{
+margin: 0 auto;
+width:80%;
+}
+/* Navbar */
+nav {
+    z-index: 1;
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    display:flex;
+    list-style-type:none;
+    height: 35px;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+nav div:nth-child(1){
+    margin-left: 50px;
+}
+.logoname a span{
+color: black;
+}
+.logoname a span span{
+    color: grey;
+}
+.nav-content{
+    display:  flex;
+    margin-right: 50px;
+}
+.nav-content a li{
+    margin-left: 20px;
+    color: grey;
+}
+.nav-content a li:hover{
+    margin-left: 20px;
+   
+    color: black;
+}
+
+
+
+
+
+
+/* Home*/
+
+.home{
+    /* background-color: green; */
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullwidthbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileinfo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.profileinfo h2{
+font-size: 40px;
+margin-top: 0;
+}
+.profileinfo p{
+    margin-top: 0;
+    font-size: 15px; 
+    color: grey;
+}
+.profileimage img{
+    border-radius: 50%;
+	width: 180px;
+	height: 180px;
+   order: 2;
+}
+.button-1{
+    margin-top: 12px;
+    background-color: black;
+    width: 160px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 17px;
+}
+.button-1 a{
+    color: white;    
+}
+.button-1 .downloadLogo{
+    height: 15px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(119%) contrast(119%);  
+}
+
+
+
+
+
+
+
+
+
+
+
+                /* about*/
+
+
+
+
+
+.fullwidthbox-2{
+    width: 100%;
+    padding-top: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fullwidthbox-2 .topsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topsection p{
+    text-align: center;
+    font-size: 15px; 
+    color: grey;
+    width: 60%;
+}
+.fullwidthbox-2 .downsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+.downsection .box{
+    width: 210px;
+    height: 250px;
+    margin: 20px;
+    padding: 12px;
+    box-shadow: 0px 0px 12px 0px #888888;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fullwidthbox-2 .downsection .box img{
+    height: 45px;
+    
+    }
+
+.fullwidthbox-2 .downsection .box h4{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: rgb(48, 46, 46);
+}
+.fullwidthbox-2 .downsection .box p{
+    text-align: center;
+    /* margin: 0px 20px 30px 20px; */
+    font-size: 13px;
+    text-align:justify; 
+}
+
+
+
+
+
+
+
+
+
+
+                        /* Skills */
+.skills{
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills h2{
+   text-align: center;
+}
+
+.skills p{
+    text-align: center;
+    font-size: 15px; 
+    color: grey;
+    
+}
+.gridcontainer{
+    margin-top: 50px;
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;  
+}
+.gridcontainer div img{
+    height: 55px;
+}
+.gridcontainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridcontainer div h6{
+    margin: 10px;
+}
+
+                /* main section-3 */
+/* .mainsection-3{
+    margin-top: 100px;
+    text-align: center;
+    font-weight:bolder;
+}
+.mainsection-3 p{
+    margin: 0px 200px 00px 200px;
+    font-size: 15px; 
+    color: grey;
+}
+.gridcontainer{
+    margin-top: 50px;
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px; 
+}
+
+.gridcontainer div img{
+    height: 55px;  
+}
+.gridcontainer div h6{
+    margin: 0;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /* footer */
+footer{
+    margin: 0 auto;
+    background-color: black;
+}
+.footersetting{
+    color: white;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footersetting .container{
+    /* border: 2px solid red; */
+    padding: 0px 100px 0 100px;
+    text-align: start;
+    margin-top: 75px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+}
+.logo-info span {
+    color:white;
+    font-size: 45px;
+    margin-top: 15px;
+    letter-spacing: 3px;
+    font-family: "Patua One";
+}
+.logo-info span span{
+        font-size: 45px;
+        color:grey;
+        margin: 0;
+        letter-spacing: 3px;
+        font-family: "Patua One";
+}
+
+
+
+.logo-info p{
+    font-size: 10px;
+    margin: 0;
+}
+.container h3{
+    margin-bottom: 3px;
+    /* color: green; */
+}
+.container h6{
+    font-size: 9px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+.bottom-navigation a{
+    color: white;
+    display: block;
+}
+.bottom-navigation a:hover{
+    color: grey;
+    
+}
+.social-media a{
+    display: block;
+    color: grey;
+}
+.social-media a:hover{
+    color: white;
+}
+.bottom-navigation,.social-media{
+    font-size: 30px;
+    font-weight:100;
+    font-family: "Patua One";
+}
+
+
+
+                            /* media Queries */
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .fullwidthbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .profileinfo{
+        order:2;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .profileimage img{
+        order: 1;
+        
+    }
+    .button-1{
+        display: inline-block;
+    }
+}
